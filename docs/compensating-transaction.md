@@ -1,12 +1,12 @@
 ---
 title: Compensating Transaction Pattern | Azure | Microsoft Docs
 description: Undo the work performed by a series of steps, which together define an eventually consistent operation.
-categories: [resiliency]
 keywords: design pattern
 author: dragon119
 manager: bennage
 
 pnp.series.title: Cloud Design Patterns
+pnp.pattern.categories: [resiliency]
 
 ms.service: guidance
 ms.topic: article

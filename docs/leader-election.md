@@ -1,12 +1,12 @@
 ---
 title: Leader Election Pattern | Azure | Microsoft Docs
 description: Coordinate the actions performed by a collection of collaborating task instances in a distributed application by electing one instance as the leader that assumes responsibility for managing the other instances.
-categories: [design-implementation, resiliency]
 keywords: design pattern
 author: dragon119
 manager: bennage
 
 pnp.series.title: Cloud Design Patterns
+pnp.pattern.categories: [design-implementation, resiliency]
 
 ms.service: guidance
 ms.topic: article

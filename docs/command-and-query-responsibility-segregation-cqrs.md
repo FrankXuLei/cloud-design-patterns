@@ -1,7 +1,6 @@
 ---
 title: CQRS Pattern | Azure | Microsoft Docs
 description: Segregate operations that read data from operations that update data by using separate interfaces.
-categories: [data-management, design-implementation, performance-scalability]
 keywords: design pattern
 services: ''
 documentationcenter: na
@@ -10,6 +9,7 @@ manager: bennage
 tags: ''
 
 pnp.series.title: Cloud Design Patterns
+pnp.pattern.categories: [data-management, design-implementation, performance-scalability]
 
 ms.service: guidance
 ms.devlang: na

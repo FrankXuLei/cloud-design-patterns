@@ -1,12 +1,12 @@
 ---
 title: Health Endpoint Monitoring Pattern | Azure | Microsoft Docs
 description: Implement functional checks in an application that external tools can access through exposed endpoints at regular intervals.
-categories: [availability, management-monitoring, resiliency]
 keywords: design pattern
 author: dragon119
 manager: bennage
 
 pnp.series.title: Cloud Design Patterns
+pnp.pattern.categories: [availability, management-monitoring, resiliency]
 
 ms.service: guidance
 ms.topic: article

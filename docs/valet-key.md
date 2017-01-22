@@ -1,12 +1,12 @@
 ---
 title: Valet Key Pattern | Azure | Microsoft Docs
 description: Use a token or key that provides clients with restricted direct access to a specific resource or service.
-categories: [data-management, security]
 keywords: design pattern
 author: dragon119
 manager: bennage
 
 pnp.series.title: Cloud Design Patterns
+pnp.pattern.categories: [data-management, security]
 
 ms.service: guidance
 ms.topic: article

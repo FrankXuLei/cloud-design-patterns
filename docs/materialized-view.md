@@ -1,12 +1,12 @@
 ---
 title: Materialized View Pattern | Azure | Microsoft Docs
 description: Generate prepopulated views over the data in one or more data stores when the data isn't ideally formatted for required query operations.
-categories: [data-management, performance-scalability]
 keywords: design pattern
 author: dragon119
 manager: bennage
 
 pnp.series.title: Cloud Design Patterns
+pnp.pattern.categories: [data-management, performance-scalability]
 
 ms.service: guidance
 ms.topic: article

@@ -1,12 +1,12 @@
 ---
 title: Queue-Based Load Leveling Pattern | Azure | Microsoft Docs
 description: Use a queue that acts as a buffer between a task and a service that it invokes in order to smooth intermittent heavy loads.
-categories: [messaging, availability, performance-scalability, resiliency]
 keywords: design pattern
 author: dragon119
 manager: bennage
 
 pnp.series.title: Cloud Design Patterns
+pnp.pattern.categories: [messaging, availability, performance-scalability, resiliency]
 
 ms.service: guidance
 ms.topic: article

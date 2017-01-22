@@ -1,12 +1,12 @@
 ---
 title: Static Content Hosting Pattern | Azure | Microsoft Docs
 description: Deploy static content to a cloud-based storage service that can deliver them directly to the client.
-categories: [data-management, design-implementation, performance-scalability]
 keywords: design pattern
 author: dragon119
 manager: bennage
 
 pnp.series.title: Cloud Design Patterns
+pnp.pattern.categories: [data-management, design-implementation, performance-scalability]
 
 ms.service: guidance
 ms.topic: article

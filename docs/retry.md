@@ -1,12 +1,12 @@
 ---
 title: Retry Pattern | Azure | Microsoft Docs
 description: Enable an application to handle anticipated, temporary failures when it tries to connect to a service or network resource by transparently retrying an operation that's previously failed.
-categories: [resiliency]
 keywords: design pattern
 author: dragon119
 manager: bennage
 
 pnp.series.title: Cloud Design Patterns
+pnp.pattern.categories: [resiliency]
 
 ms.service: guidance
 ms.topic: article

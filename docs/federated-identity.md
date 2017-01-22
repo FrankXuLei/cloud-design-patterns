@@ -1,12 +1,12 @@
 ---
 title: Federated Identity Pattern | Azure | Microsoft Docs
 description: Delegate authentication to an external identity provider.
-categories: [security]
 keywords: design pattern
 author: dragon119
 manager: bennage
 
 pnp.series.title: Cloud Design Patterns
+pnp.pattern.categories: [security]
 
 ms.service: guidance
 ms.topic: article

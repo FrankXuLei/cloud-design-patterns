@@ -1,12 +1,12 @@
 ---
 title: Throttling Pattern | Azure | Microsoft Docs
 description: Control the consumption of resources used by an instance of an application, an individual tenant, or an entire service.
-categories: [availability, performance-scalability]
 keywords: design pattern
 author: dragon119
 manager: bennage
 
 pnp.series.title: Cloud Design Patterns
+pnp.pattern.categories: [availability, performance-scalability]
 
 ms.service: guidance
 ms.topic: article

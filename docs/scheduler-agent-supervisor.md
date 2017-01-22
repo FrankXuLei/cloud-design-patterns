@@ -1,12 +1,12 @@
 ---
 title: Scheduler Agent Supervisor Pattern | Azure | Microsoft Docs
 description: Coordinate a set of actions across a distributed set of services and other remote resources.
-categories: [messaging, resiliency]
 keywords: design pattern
 author: dragon119
 manager: bennage
 
 pnp.series.title: Cloud Design Patterns
+pnp.pattern.categories: [messaging, resiliency]
 
 ms.service: guidance
 ms.topic: article

@@ -1,12 +1,12 @@
 ---
 title: Pipes and Filters Pattern | Azure | Microsoft Docs
 description: Break down a task that performs complex processing into a series of separate elements that can be reused.
-categories: [design-implementation, messaging]
 keywords: design pattern
 author: dragon119
 manager: bennage
 
 pnp.series.title: Cloud Design Patterns
+pnp.pattern.categories: [design-implementation, messaging]
 
 ms.service: guidance
 ms.topic: article

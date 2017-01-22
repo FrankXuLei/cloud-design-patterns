@@ -1,12 +1,12 @@
 ---
 title: Runtime Reconfiguration Pattern | Azure | Microsoft Docs
 description: Design an application so that it can be reconfigured without requiring redeployment or restarting the application.
-categories: [design-implementation, management-monitoring]
 keywords: design pattern
 author: dragon119
 manager: bennage
 
 pnp.series.title: Cloud Design Patterns
+pnp.pattern.categories: [design-implementation, management-monitoring]
 
 ms.service: guidance
 ms.topic: article

@@ -1,12 +1,12 @@
 ---
 title: Competing Consumers Pattern | Azure | Microsoft Docs
 description: Enable multiple concurrent consumers to process messages received on the same messaging channel.
-categories: [messaging]
 keywords: design pattern
 author: dragon119
 manager: bennage
 
 pnp.series.title: Cloud Design Patterns
+pnp.pattern.categories: [messaging]
 
 ms.service: guidance
 ms.topic: article

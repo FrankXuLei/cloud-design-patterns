@@ -1,12 +1,12 @@
 ---
 title: Circuit Breaker Pattern | Azure | Microsoft Docs
 description: Handle faults that might take a variable amount of time to fix when connecting to a remote service or resource.
-categories: [resiliency]
 keywords: design pattern
 author: dragon119
 manager: bennage
 
 pnp.series.title: Cloud Design Patterns
+pnp.pattern.categories: [resiliency]
 
 ms.service: guidance
 ms.topic: article

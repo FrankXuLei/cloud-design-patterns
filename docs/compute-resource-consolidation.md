@@ -1,12 +1,12 @@
 ---
 title: Compute Resource Consolidation Pattern | Azure | Microsoft Docs
 description: Consolidate multiple tasks or operations into a single computational unit
-categories: [design-implementation]
 keywords: design pattern
 author: dragon119
 manager: bennage
 
 pnp.series.title: Cloud Design Patterns
+pnp.pattern.categories: [design-implementation]
 
 ms.service: guidance
 ms.topic: article

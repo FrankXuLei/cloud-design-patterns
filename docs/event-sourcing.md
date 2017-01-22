@@ -1,12 +1,12 @@
 ---
 title: Event Sourcing Pattern | Azure | Microsoft Docs
 description: Use an append-only store to record the full series of events that describe actions taken on data in a domain.
-categories: [data-management, performance-scalability]
 keywords: design pattern
 author: dragon119
 manager: bennage
 
 pnp.series.title: Cloud Design Patterns
+pnp.pattern.categories: [data-management, performance-scalability]
 
 ms.service: guidance
 ms.topic: article
