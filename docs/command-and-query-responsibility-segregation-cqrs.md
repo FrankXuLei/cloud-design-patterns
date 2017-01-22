@@ -9,6 +9,8 @@ author: dragon119
 manager: bennage
 tags: ''
 
+pnp.series.title: Cloud Design Patterns
+
 ms.service: guidance
 ms.devlang: na
 ms.topic: article

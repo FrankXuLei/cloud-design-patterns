@@ -6,6 +6,8 @@ keywords: design pattern
 author: dragon119
 manager: bennage
 
+pnp.series.title: Cloud Design Patterns
+
 ms.service: guidance
 ms.topic: article
 ms.tgt_pltfrm: na
