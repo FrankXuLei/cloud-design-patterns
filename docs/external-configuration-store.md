@@ -1,5 +1,5 @@
 ---
-title: External Configuration Store Pattern | Azure | Microsoft Docs
+title: External Configuration Store Pattern
 description: Move configuration information out of the application deployment package to a centralized location.
 keywords: design pattern
 author: dragon119

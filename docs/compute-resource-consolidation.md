@@ -1,5 +1,5 @@
 ---
-title: Compute Resource Consolidation Pattern | Azure | Microsoft Docs
+title: Compute Resource Consolidation Pattern
 description: Consolidate multiple tasks or operations into a single computational unit
 keywords: design pattern
 author: dragon119

@@ -1,5 +1,5 @@
 ---
-title: Compensating Transaction Pattern | Azure | Microsoft Docs
+title: Compensating Transaction Pattern
 description: Undo the work performed by a series of steps, which together define an eventually consistent operation.
 keywords: design pattern
 author: dragon119

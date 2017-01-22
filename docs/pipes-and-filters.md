@@ -1,5 +1,5 @@
 ---
-title: Pipes and Filters Pattern | Azure | Microsoft Docs
+title: Pipes and Filters Pattern
 description: Break down a task that performs complex processing into a series of separate elements that can be reused.
 keywords: design pattern
 author: dragon119

@@ -1,5 +1,5 @@
 ---
-title: Index Table Pattern | Azure | Microsoft Docs
+title: Index Table Pattern
 description: Create indexes over the fields in data stores that are frequently referenced by queries.
 keywords: design pattern
 author: dragon119

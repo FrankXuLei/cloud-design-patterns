@@ -1,5 +1,5 @@
 ---
-title: Static Content Hosting Pattern | Azure | Microsoft Docs
+title: Static Content Hosting Pattern
 description: Deploy static content to a cloud-based storage service that can deliver them directly to the client.
 keywords: design pattern
 author: dragon119

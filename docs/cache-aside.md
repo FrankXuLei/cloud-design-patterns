@@ -1,5 +1,5 @@
 ---
-title: Cache-Aside Pattern | Azure | Microsoft Docs 
+title: Cache-Aside Pattern
 description: Load data on demand into a cache from a data store
 keywords: design pattern
 author: dragon119

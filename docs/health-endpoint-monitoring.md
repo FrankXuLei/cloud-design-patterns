@@ -1,5 +1,5 @@
 ---
-title: Health Endpoint Monitoring Pattern | Azure | Microsoft Docs
+title: Health Endpoint Monitoring Pattern
 description: Implement functional checks in an application that external tools can access through exposed endpoints at regular intervals.
 keywords: design pattern
 author: dragon119

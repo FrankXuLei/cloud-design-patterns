@@ -1,5 +1,5 @@
 ---
-title: Gatekeeper Pattern | Azure | Microsoft Docs
+title: Gatekeeper Pattern
 description: Protect applications and services by using a dedicated host instance that acts as a broker between clients and the application or service, validates and sanitizes requests, and passes requests and data between them.
 keywords: design pattern
 author: dragon119

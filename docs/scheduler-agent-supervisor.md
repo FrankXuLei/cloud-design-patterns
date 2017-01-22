@@ -1,5 +1,5 @@
 ---
-title: Scheduler Agent Supervisor Pattern | Azure | Microsoft Docs
+title: Scheduler Agent Supervisor Pattern
 description: Coordinate a set of actions across a distributed set of services and other remote resources.
 keywords: design pattern
 author: dragon119

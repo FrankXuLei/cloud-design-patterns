@@ -1,5 +1,5 @@
 ---
-title: Priority Queue Pattern | Azure | Microsoft Docs
+title: Priority Queue Pattern
 description: Prioritize requests sent to services so that requests with a higher priority are received and processed more quickly than those with a lower priority.
 keywords: design pattern
 author: dragon119

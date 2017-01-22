@@ -1,5 +1,5 @@
 ---
-title: Event Sourcing Pattern | Azure | Microsoft Docs
+title: Event Sourcing Pattern
 description: Use an append-only store to record the full series of events that describe actions taken on data in a domain.
 keywords: design pattern
 author: dragon119

@@ -1,5 +1,5 @@
 ---
-title: Runtime Reconfiguration Pattern | Azure | Microsoft Docs
+title: Runtime Reconfiguration Pattern
 description: Design an application so that it can be reconfigured without requiring redeployment or restarting the application.
 keywords: design pattern
 author: dragon119

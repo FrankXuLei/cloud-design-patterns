@@ -1,5 +1,5 @@
 ---
-title: Queue-Based Load Leveling Pattern | Azure | Microsoft Docs
+title: Queue-Based Load Leveling Pattern
 description: Use a queue that acts as a buffer between a task and a service that it invokes in order to smooth intermittent heavy loads.
 keywords: design pattern
 author: dragon119
