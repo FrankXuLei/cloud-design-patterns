@@ -1,14 +1,16 @@
-# [Cloud Design Patterns](./index.md)
+# Cloud Design Patterns
+
+## [Get started](./index.md)
 
 ## By problem area
-### [Availability](./category/availability)
-### [Data management](./category/data-management)
-### [Design and implementation](./category/design-implementation)
-### [Messaging](./category/messaging)
-### [Management and monitoring](./category/management-monitoring)
-### [Performance and scalability](./category/performance-scalability)
-### [Resiliency](./category/resiliency)
-### [Security](./category/security)
+### [Availability](./category/availability.md)
+### [Data management](./category/data-management.md)
+### [Design and implementation](./category/design-implementation.md)
+### [Messaging](./category/messaging.md)
+### [Management and monitoring](./category/management-monitoring.md)
+### [Performance and scalability](./category/performance-scalability.md)
+### [Resiliency](./category/resiliency.md)
+### [Security](./category/security.md)
 
 ## By name
 ### [Cache-Aside](./cache-aside.md)
