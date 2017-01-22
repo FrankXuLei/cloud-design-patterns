@@ -36,7 +36,7 @@ If it isn't possible for the components to apply the changes at runtime, it'll b
 
 The figure shows an overview of this pattern.
 
-![Figure 1 - A basic overview of this pattern](media/runtime-reconfiguration-pattern.png)
+![Figure 1 - A basic overview of this pattern](./_images/runtime-reconfiguration-pattern.png)
 
 
 Most environments expose events raised in response to configuration changes. In those that don't, it will be necessary to have a polling mechanism that regularly checks for changes to the configuration and applies these changes. It might also be necessary to restart the application if the changes can't be applied at runtime. For example, it's possible to compare the date and time of a configuration file at preset intervals, and run code to apply the changes when a newer version is found. Another approach is to incorporate a control in the administration UI of the application, or expose a secured endpoint that can be accessed from outside the application, that executes code that reads and applies the updated configuration.

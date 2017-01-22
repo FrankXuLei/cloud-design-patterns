@@ -26,7 +26,7 @@ An application is required to perform a variety of tasks of varying complexity o
 
 The figure illustrates the issues with processing data using the monolithic approach. An application receives and processes data from two sources. The data from each source is processed by a separate module that performs a series of tasks to transform this data, before passing the result to the business logic of the application.
 
-![Figure 1 - A solution implemented using monolithic modules](media/pipes-and-filters-modules.png)
+![Figure 1 - A solution implemented using monolithic modules](./_images/pipes-and-filters-modules.png)
 
 Some of the tasks that the monolithic modules perform are functionally very similar, but the modules have been designed separately. The code that implements the tasks is closely coupled in a module, and has been developed with little or no thought given to reuse or scalability.
 
@@ -36,14 +36,14 @@ However, the processing tasks performed by each module, or the deployment requir
 
 Break down the processing required for each stream into a set of separate components (or filters), each performing a single task. By standardizing the format of the data that each component receives and sends, these filters can be combined together into a pipeline. This helps to avoid duplicating code, and makes it easy to remove, replace, or integrate additional components if the processing requirements change. The next figure shows a solution implemented using pipes and filters.
 
-![Figure 2 - A solution implemented using pipes and filters](media/pipes-and-filters-solution.png)
+![Figure 2 - A solution implemented using pipes and filters](./_images/pipes-and-filters-solution.png)
 
 
 The time it takes to process a single request depends on the speed of the slowest filter in the pipeline. One or more filters could be a bottleneck, especially if a large number of requests appear in a stream from a particular data source. A key advantage of the pipeline structure is that it provides opportunities for running parallel instances of slow filters, enabling the system to spread the load and improve throughput.
 
 The filters that make up a pipeline can run on different machines, enabling them to be scaled independently and take advantage of the elasticity that many cloud environments provide. A filter that is computationally intensive can run on high performance hardware, while other less demanding filters can be hosted on less expensive commodity hardware. The filters don't even have to be in the same data center or geographical location, which allows each element in a pipeline to run in an environment that is close to the resources it requires.  The next figure shows an example applied to the pipeline for the data from Source 1.
 
-![Figure 3 shows an example applied to the pipeline for the data from Source 1](media/pipes-and-filters-load-balancing.png)
+![Figure 3 shows an example applied to the pipeline for the data from Source 1](./_images/pipes-and-filters-load-balancing.png)
 
 If the input and output of a filter are structured as a stream, it's possible to perform the processing for each filter in parallel. The first filter in the pipeline can start its work and output its results, which are passed directly on to the next filter in the sequence before the first filter has completed its work.
 
@@ -90,7 +90,7 @@ This pattern might not be useful when:
 
 You can use a sequence of message queues to provide the infrastructure required to implement a pipeline. An initial message queue receives unprocessed messages. A component implemented as a filter task listens for a message on this queue, performs its work, and then posts the transformed message to the next queue in the sequence. Another filter task can listen for messages on this queue, process them, post the results to another queue, and so on until the fully transformed data appears in the final message in the queue. The next figure illustrates implementing a pipeline using message queues.
 
-![Figure 4 - Implementing a pipeline using message queues](media/pipes-and-filters-message-queues.png)
+![Figure 4 - Implementing a pipeline using message queues](./_images/pipes-and-filters-message-queues.png)
 
 
 If you're building a solution on Azure you can use Service Bus queues to provide a reliable and scalable queuing mechanism. The `ServiceBusPipeFilter` class shown below in C# demonstrates how you can implement a filter that receives input messages from a queue, processes these messages, and posts the results to another queue.

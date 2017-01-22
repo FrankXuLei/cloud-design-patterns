@@ -36,7 +36,7 @@ A key point is that a materialized view and the data it contains is completely d
 
 When the source data for the view changes, the view must be updated to include the new information. You can schedule this to happen automatically, or when the system detects a change to the original data. In some cases it might be necessary to regenerate the view manually. The figure shows an example of how the Materialized View pattern might be used.
 
-![Figure 1 shows an example of how the Materialized View pattern might be used](media/materialized-view-pattern-diagram.png)
+![Figure 1 shows an example of how the Materialized View pattern might be used](./_images/materialized-view-pattern-diagram.png)
 
 
 ## Issues and considerations
@@ -76,7 +76,7 @@ This pattern isn't useful in the following situations:
 
 The following figure shows an example of using the Materialized View pattern to generate a summary of sales. Data in the Order, OrderItem, and Customer tables in separate partitions in an Azure storage account are combined to generate a view containing the total sales value for each product in the Electronics category, along with a count of the number of customers who made purchases of each item.
 
-![Figure 2: Using the Materialized View pattern to generate a summary of sales](media/materialized-view-summary-diagram.png)
+![Figure 2: Using the Materialized View pattern to generate a summary of sales](./_images/materialized-view-summary-diagram.png)
 
 
 Creating this materialized view requires complex queries. However, by exposing the query result as a materialized view, users can easily obtain the results and use them directly or incorporate them in another query. The view is likely to be used in a reporting system or dashboard, and can be updated on a scheduled basis such as weekly.

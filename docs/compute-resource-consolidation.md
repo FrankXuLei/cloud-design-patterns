@@ -26,7 +26,7 @@ A cloud application often implements a variety of operations. In some solutions 
 
 As an example, the figure shows the simplified structure of a cloud-hosted solution that is implemented using more than one computational unit. Each computational unit runs in its own virtual environment. Each function has been implemented as a separate task (labeled Task A through Task E) running in its own computational unit.
 
-![Running tasks in a cloud environment using a set of dedicated computational units](media/compute-resource-consolidation-diagram.png)
+![Running tasks in a cloud environment using a set of dedicated computational units](./_images/compute-resource-consolidation-diagram.png)
 
 
 Each computational unit consumes chargeable resources, even when it's idle or lightly used. Therefore, this isn't always the most cost-effective solution.
@@ -103,7 +103,7 @@ When a role shuts down or is recycled, the fabric controller prevents any more i
 
 The tasks are started by the `Run` method that waits for the tasks to complete. The tasks implement the business logic of the cloud service, and can respond to messages posted to the role through the Azure load balancer. The figure shows the lifecycle of tasks and resources in a role in a Azure cloud service.
 
-![The lifecycle of tasks and resources in a role in a Azure cloud service](media/compute-resource-consolidation-lifecycle.png)
+![The lifecycle of tasks and resources in a role in a Azure cloud service](./_images/compute-resource-consolidation-lifecycle.png)
 
 
 The _WorkerRole.cs_ file in the _ComputeResourceConsolidation.Worker_ project shows an example of how you might implement this pattern in a Azure cloud service.

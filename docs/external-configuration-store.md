@@ -38,7 +38,7 @@ The backing store you choose for configuration information should have an interf
 
 > Many built-in configuration systems read the data when the application starts up, and cache the data in memory to provide fast access and minimize the impact on application performance. Depending on the type of backing store used, and the latency of this store, it might be helpful to implement a caching mechanism within the external configuration store. For more information, see the [Caching Guidance](https://msdn.microsoft.com/library/dn589802.aspx). The figure illustrates an overview of the External Configuration Store pattern with optional local cache.
 
-![An overview of the External Configuration Store pattern with optional local cache](media/external-configuration-store-overview.png)
+![An overview of the External Configuration Store pattern with optional local cache](./_images/external-configuration-store-overview.png)
 
 
 ## Issues and considerations

@@ -30,7 +30,7 @@ For caches that don't provide this functionality, it's the responsibility of the
 
 An application can emulate the functionality of read-through caching by implementing the cache-aside strategy. This strategy loads data into the cache on demand. The figure illustrates using the Cache-Aside pattern to store data in the cache.
 
-![Using the Cache-Aside pattern to store data in the cache](media/cache-aside-diagram.png)
+![Using the Cache-Aside pattern to store data in the cache](./_images/cache-aside-diagram.png)
 
 
 If an application updates information, it can follow the write-through strategy by making the modification to the data store, and by invalidating the corresponding item in the cache.

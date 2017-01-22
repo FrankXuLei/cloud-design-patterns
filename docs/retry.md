@@ -44,7 +44,7 @@ If the request still fails, the application can wait and make another attempt. I
 
 The following diagram illustrates invoking an operation in a hosted service using this pattern. If the request is unsuccessful after a predefined number of attempts, the application should treat the fault as an exception and handle it accordingly.
 
-![Figure 1 - Invoking an operation in a hosted service using the Retry pattern](media/retry-pattern.png)
+![Figure 1 - Invoking an operation in a hosted service using the Retry pattern](./_images/retry-pattern.png)
 
 The application should wrap all attempts to access a remote service in code that implements a retry policy matching one of the strategies listed above. Requests sent to different services can be subject to different policies. Some vendors provide libraries that implement retry policies, where the application can specify the maximum number of retries, the time between retry attempts, and other parameters.
 

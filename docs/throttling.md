@@ -42,7 +42,7 @@ The system could implement several throttling strategies, including:
 
 The figure shows an area graph for resource use (a combination of memory, CPU, bandwidth, and other factors) against time for applications that are making use of three features. A feature is an area of functionality, such as a component that performs a specific set of tasks, a piece of code that performs a complex calculation, or an element that provides a service such as an in-memory cache. These features are labeled A, B, and C.
 
-![Figure 1 - Graph showing resource use against time for applications running on behalf of three users](media/throttling-resource-utilization.png)
+![Figure 1 - Graph showing resource use against time for applications running on behalf of three users](./_images/throttling-resource-utilization.png)
 
 
 > The area immediately below the line for a feature indicates the resources that are used by applications when they invoke this feature. For example, the area below the line for Feature A shows the resources used by applications that are making use of Feature A, and the area between the lines for Feature A and Feature B indicates the resources used by applications invoking Feature B. Aggregating the areas for each feature shows the total resource use of the system.
@@ -53,7 +53,7 @@ The autoscaling and throttling approaches can also be combined to help keep the 
 
 The next figure shows an area graph of the overall resource use by all applications running in a system against time, and illustrates how throttling can be combined with autoscaling.
 
-![Figure 2 - Graph showing the effects of combining throttling with autoscaling](media/throttling-autoscaling.png)
+![Figure 2 - Graph showing the effects of combining throttling with autoscaling](./_images/throttling-autoscaling.png)
 
 
 At time T1, the threshold specifying the soft limit of resource use is reached. At this point, the system can start to scale out. However, if the new resources don't become available quickly enough, then the existing resources might be exhausted and the system could fail. To prevent this from occurring, the system is temporarily throttled, as described earlier. When autoscaling has completed and the additional resources are available, throttling can be relaxed.
@@ -90,7 +90,7 @@ The final figure illustrates how throttling can be implemented in a multi-tenant
 
 In order to prevent the users from one tenant affecting the responsiveness and availability of the application for all other users, a limit is applied to the number of requests per second the users from any one tenant can submit. The application blocks requests that exceed this limit.
 
-![Figure 3 - Implementing throttling in a multi-tenant application](media/throttling-multi-tenant.png)
+![Figure 3 - Implementing throttling in a multi-tenant application](./_images/throttling-multi-tenant.png)
 
 
 ## Related patterns and guidance

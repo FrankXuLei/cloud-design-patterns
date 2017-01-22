@@ -32,7 +32,7 @@ A service might experience peaks in demand that cause it to overload and be unab
 
 Refactor the solution and introduce a queue between the task and the service. The task and the service run asynchronously. The task posts a message containing the data required by the service to a queue. The queue acts as a buffer, storing the message until it's retrieved by the service. The service retrieves the messages from the queue and processes them. Requests from a number of tasks, which can be generated at a highly variable rate, can be passed to the service through the same message queue. This figure shows using a queue to level the load on a service.
 
-![Figure 1 - Using a queue to level the load on a service](media/queue-based-load-leveling-pattern.png)
+![Figure 1 - Using a queue to level the load on a service](./_images/queue-based-load-leveling-pattern.png)
 
 The queue decouples the tasks from the service, and the service can handle the messages at its own pace regardless of the volume of requests from concurrent tasks. Additionally, there's no delay to a task if the service isn't available at the time it posts a message to the queue.
 
@@ -62,12 +62,12 @@ This pattern isn't useful if the application expects a response from the service
 
 A Microsoft Azure web role stores data using a separate storage service. If a large number of instances of the web role run concurrently, it's possible that the storage service will be unable to respond to requests quickly enough to prevent these requests from timing out or failing. This figure highlights a service being overwhelmed by a large number of concurrent requests from instances of a web role.
 
-![Figure 2 - A service being overwhelmed by a large number of concurrent requests from instances of a web role](media/queue-based-load-leveling-overwhelmed.png)
+![Figure 2 - A service being overwhelmed by a large number of concurrent requests from instances of a web role](./_images/queue-based-load-leveling-overwhelmed.png)
 
 
 To resolve this, you can use a queue to level the load between the web role instances and the storage service. However, the storage service is designed to accept synchronous requests and can't be easily modified to read messages and manage throughput. You can introduce a worker role to act as a proxy service that receives requests from the queue and forwards them to the storage service. The application logic in the worker role can control the rate at which it passes requests to the storage service to prevent the storage service from being overwhelmed. This figure illustrates sing a queue and a worker role to level the load between instances of the web role and the service.
 
-![Figure 3 - Using a queue and a worker role to level the load between instances of the web role and the service](media/queue-based-load-leveling-worker-role.png)
+![Figure 3 - Using a queue and a worker role to level the load between instances of the web role and the service](./_images/queue-based-load-leveling-worker-role.png)
 
 ## Related patterns and guidance
 

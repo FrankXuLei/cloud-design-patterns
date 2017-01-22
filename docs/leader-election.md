@@ -164,7 +164,7 @@ If the lease fails to be renewed or the task is canceled (possibly as a result o
 
 The `KeepRenewingLease` method is another helper method that uses the `BlobLeaseManager` object to renew the lease. The `CancelAllWhenAnyCompletes` method cancels the tasks specified as the first two parameters. The following diagram illustrates using the `BlobDistributedMutex` class to elect a leader and run a task that coordinates operations.
 
-![Figure 1 illustrates the functions of the BlobDistributedMutex class](media/leader-election-diagram.png)
+![Figure 1 illustrates the functions of the BlobDistributedMutex class](./_images/leader-election-diagram.png)
 
 
 The following code example shows how to use the `BlobDistributedMutex` class in a worker role. This code acquires a lease over a blob named `MyLeaderCoordinatorTask` in the lease's container in development storage, and specifies that the code defined in the `MyLeaderCoordinatorTask` method should run if the role instance is elected the leader.

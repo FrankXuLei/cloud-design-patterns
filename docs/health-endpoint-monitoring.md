@@ -37,7 +37,7 @@ A health monitoring check typically combines two factors:
 
 The response code indicates the status of the application and, optionally, any components or services it uses. The latency or response time check is performed by the monitoring tool or framework. The figure provides an overview of the pattern.
 
-![Overview of the pattern](media/health-endpoint-monitoring-pattern.png)
+![Overview of the pattern](./_images/health-endpoint-monitoring-pattern.png)
 
 Other checks that might be carried out by the health monitoring code in the application include:
 - Checking cloud storage or a database for availability and response time.

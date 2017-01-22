@@ -28,7 +28,7 @@ In traditional data management systems, both commands (updates to the data) and 
 
 Typically in these systems, all create, read, update, and delete (CRUD) operations are applied to the same representation of the entity. For example, a data transfer object (DTO) representing a customer is retrieved from the data store by the data access layer (DAL) and displayed on the screen. A user updates some fields of the DTO (perhaps through data binding) and the DTO is then saved back in the data store by the DAL. The same DTO is used for both the read and write operations. The figure illustrates a traditional CRUD architecture.
 
-![A traditional CRUD architecture](media/command-and-query-responsibility-segregation-cqrs-tradition-crud.png)
+![A traditional CRUD architecture](./_images/command-and-query-responsibility-segregation-cqrs-tradition-crud.png)
 
 Traditional CRUD designs work well when only limited business logic is applied to the data operations. Scaffold mechanisms provided by development tools can create data access code very quickly, which can then be customized as required.
 
@@ -46,13 +46,13 @@ However, the traditional CRUD approach has some disadvantages:
 
 Command and Query Responsibility Segregation (CQRS) is a pattern that segregates the operations that read data (queries) from the operations that update data (commands) by using separate interfaces. This means that the data models used for querying and updates are different. The models can then be isolated, as shown in the following figure, although that's not an absolute requirement.
 
-![A basic CQRS architecture](media/command-and-query-responsibility-segregation-cqrs-basic.png)
+![A basic CQRS architecture](./_images/command-and-query-responsibility-segregation-cqrs-basic.png)
 
 Compared to the single data model used in CRUD-based systems, the use of separate query and update models for the data in CQRS-based systems simplifies design and implementation. However, one disadvantage is that unlike CRUD designs, CQRS code can't automatically be generated using scaffold mechanisms.
 
 The query model for reading data and the update model for writing data can access the same physical store, perhaps by using SQL views or by generating projections on the fly. However, it's common to separate the data into different physical stores to maximize performance, scalability, and security, as shown in the next figure.
 
-![A CQRS architecture with separate read and write stores](media/command-and-query-responsibility-segregation-cqrs-separate-stores.png)
+![A CQRS architecture with separate read and write stores](./_images/command-and-query-responsibility-segregation-cqrs-separate-stores.png)
 
 The read store can be a read-only replica of the write store, or the read and write stores can have a different structure altogether. Using multiple read-only replicas of the read store can greatly increase query performance and application UI responsiveness, especially in distributed scenarios where read-only replicas are located close to the application instances. Some database systems (SQL Server) provide additional features such as failover replicas to maximize availability.
 

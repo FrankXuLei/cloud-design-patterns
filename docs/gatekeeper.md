@@ -30,7 +30,7 @@ If a malicious user is able to compromise the system and gain access to the appl
 
 To minimize the risk of clients gaining access to sensitive information and services, decouple hosts or tasks that expose public endpoints from the code that processes requests and accesses storage. You can achieve this by using a façade or a dedicated task that interacts with clients and then hands off the request&mdash;perhaps through a decoupled interface&mdash;to the hosts or tasks that'll handle the request. The figure provides a high-level overview of this pattern.
 
-![High-level overview of this pattern](media/gatekeeper-diagram.png)
+![High-level overview of this pattern](./_images/gatekeeper-diagram.png)
 
 
 The gatekeeper pattern can be used to simply protect storage, or it can be used as a more comprehensive façade to protect all of the functions of the application. The important factors are:
@@ -63,7 +63,7 @@ This pattern is useful for:
 
 In a cloud-hosted scenario, this pattern can be implemented by decoupling the gatekeeper role or virtual machine from the trusted roles and services in an application. Do this by using an internal endpoint, a queue, or storage as an intermediate communication mechanism. The figure illustrates using an internal endpoint.
 
-![An example of the pattern using Cloud Services web and worker roles](media/gatekeeper-endpoint.png)
+![An example of the pattern using Cloud Services web and worker roles](./_images/gatekeeper-endpoint.png)
 
 
 ## Related patterns

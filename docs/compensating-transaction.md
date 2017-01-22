@@ -82,7 +82,7 @@ These steps constitute an eventually consistent operation, although each step is
 
 Notice that the steps in the compensating transaction might not be the exact opposite of the original steps, and the logic in each step in the compensating transaction must take into account any business-specific rules. For example, unbooking a seat on a flight might not entitle the customer to a complete refund of any money paid. The figure illustrates generating a compensating transaction to undo a long-running transaction to book a travel itinerary.
 
-![Generating a compensating transaction to undo a long-running transaction to book a travel itinerary](media/compensating-transaction-diagram.png)
+![Generating a compensating transaction to undo a long-running transaction to book a travel itinerary](./_images/compensating-transaction-diagram.png)
 
 
 > It might be possible for the steps in the compensating transaction to be performed in parallel, depending on how you've designed the compensating logic for each step.

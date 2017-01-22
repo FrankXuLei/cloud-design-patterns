@@ -47,7 +47,7 @@ In addition, at any point it's possible for applications to read the history of 
 
 The figure shows an overview of the pattern, including some of the options for using the event stream such as creating a materialized view, integrating events with external applications and systems, and replaying events to create projections of the current state of specific entities.
 
-![An overview and example of the Event Sourcing pattern](media/event-sourcing-overview.png)
+![An overview and example of the Event Sourcing pattern](./_images/event-sourcing-overview.png)
 
 
 The Event Sourcing pattern provides the following advantages:
@@ -125,7 +125,7 @@ A conference management system needs to track the number of completed bookings f
 
 The following diagram illustrates how the seat reservation subsystem of the conference management system might be implemented using event sourcing.
 
-![Using event sourcing to capture information about seat reservations in a conference management system](media/event-sourcing-bounded-context.png)
+![Using event sourcing to capture information about seat reservations in a conference management system](./_images/event-sourcing-bounded-context.png)
 
 
 The sequence of actions for reserving two seats is as follows:

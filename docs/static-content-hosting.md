@@ -81,7 +81,7 @@ When uploading the content it's necessary to create one or more blob containers 
 
 The links in each page will specify the URL of the resource and the client will access it directly from the storage service. The figure illustrates delivering static parts of an application directly from a storage service.
 
-![Figure 1 - Delivering static parts of an application directly from a storage service](media/static-content-hosting-pattern.png)
+![Figure 1 - Delivering static parts of an application directly from a storage service](./_images/static-content-hosting-pattern.png)
 
 
 The links in the pages delivered to the client must specify the full URL of the blob container and resource. For example, a page that contains a link to an image in a public container might contain the following HTML.

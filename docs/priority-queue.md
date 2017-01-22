@@ -28,13 +28,13 @@ Applications can delegate specific tasks to other services, for example, to perf
 
 A queue is usually a first-in, first-out (FIFO) structure, and consumers typically receive messages in the same order that they were posted to the queue. However, some message queues support priority messaging. The application posting a message can assign a priority and the messages in the queue are automatically reordered so that those with a higher priority will be received before those with a lower priority. The figure illustrates a queue with priority messaging.
 
-![Figure 1 - Using a queuing mechanism that supports message prioritization](media/priority-queue-pattern.png)
+![Figure 1 - Using a queuing mechanism that supports message prioritization](./_images/priority-queue-pattern.png)
 
 > Most message queue implementations support multiple consumers (following the [Competing Consumers pattern](https://msdn.microsoft.com/library/dn568101.aspx)), and the number of consumer processes can be scaled up or down depending on demand.
 
 In systems that don't support priority-based message queues, an alternative solution is to maintain a separate queue for each priority. The application is responsible for posting messages to the appropriate queue. Each queue can have a separate pool of consumers. Higher priority queues can have a larger pool of consumers running on faster hardware than lower priority queues. The next figure illustrates using separate message queues for each priority.
 
-![Figure 2 - Using separate message queues for each priority](media/priority-queue-separate.png)
+![Figure 2 - Using separate message queues for each priority](./_images/priority-queue-separate.png)
 
 
 A variation on this strategy is to have a single pool of consumers that check for messages on high priority queues first, and only then start to fetch messages from lower priority queues. There are some semantic differences between a solution that uses a single pool of consumer processes (either with a single queue that supports messages with different priorities or with multiple queues that each handle messages of a single priority), and a solution that uses multiple queues with a separate pool for each queue.
@@ -85,7 +85,7 @@ Microsoft Azure doesn't provide a queuing mechanism that natively supports autom
 
 An Azure solution can implement a Service Bus topic an application can post messages to, in the same way as a queue. Messages can contain metadata in the form of application-defined custom properties. Service Bus subscriptions can be associated with the topic, and these subscriptions can filter messages based on their properties. When an application sends a message to a topic, the message is directed to the appropriate subscription where it can be read by a consumer. Consumer processes can retrieve messages from a subscription using the same semantics as a message queue (a subscription is a logical queue). The following figure illustrates implementing a priority queue with Azure Service Bus topics and subscriptions.
 
-![Figure 3 - Implementing a priority queue with Azure Service Bus topics and subscriptions](media/priority-queue-service-bus.png)
+![Figure 3 - Implementing a priority queue with Azure Service Bus topics and subscriptions](./_images/priority-queue-service-bus.png)
 
 
 In the figure above, the application creates several messages and assigns a custom property called `Priority` in each message with a value, either `High` or `Low`. The application posts these messages to a topic. The topic has two associated subscriptions that both filter messages by examining the `Priority` property. One subscription accepts messages where the `Priority` property is set to `High`, and the other accepts messages where the `Priority` property is set to `Low`. A pool of consumers reads messages from each subscription. The high priority subscription has a larger pool, and these consumers might be running on more powerful computers with more resources available than the consumers in the low priority pool.
