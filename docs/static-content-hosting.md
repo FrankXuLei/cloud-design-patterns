@@ -16,7 +16,7 @@ ms.date: 12/14/2016
 
 # Static Content Hosting
 
-[!INCLUDE [pnp-branding](../includes/header.md)]
+[!INCLUDE [header](./_includes/header.md)]
 
 Deploy static content to a cloud-based storage service that can deliver them directly to the client. This can reduce the need for potentially expensive compute instances.
 

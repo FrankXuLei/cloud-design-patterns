@@ -16,7 +16,7 @@ ms.date: 12/14/2016
 
 # Compute Resource Consolidation
 
-[!INCLUDE [pnp-branding](../includes/header.md)]
+[!INCLUDE [header](./_includes/header.md)]
 
 Consolidate multiple tasks or operations into a single computational unit. This can increase compute resource utilization, and reduce the costs and management overhead associated with performing compute processing in cloud-hosted applications.
 

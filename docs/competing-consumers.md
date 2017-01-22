@@ -16,7 +16,7 @@ ms.date: 12/14/2016
 
 # Competing Consumers
 
-[!INCLUDE [pnp-branding](../includes/header.md)]
+[!INCLUDE [header](./_includes/header.md)]
 
 Enable multiple concurrent consumers to process messages received on the same messaging channel. This enables a system to process multiple messages concurrently to optimize throughput, to improve scalability and availability, and to balance the workload.
 

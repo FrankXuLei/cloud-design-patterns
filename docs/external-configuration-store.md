@@ -16,7 +16,7 @@ ms.date: 12/14/2016
 
 # External Configuration Store
 
-[!INCLUDE [pnp-branding](../includes/header.md)]
+[!INCLUDE [header](./_includes/header.md)]
 
 Move configuration information out of the application deployment package to a centralized location. This can provide opportunities for easier management and control of configuration data, and for sharing configuration data across applications and application instances.
 

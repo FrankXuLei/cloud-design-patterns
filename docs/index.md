@@ -10,7 +10,7 @@ ms.topic: article
 
 # Cloud Design Patterns
 
-[!INCLUDE [pnp-branding](../includes/header.md)]
+[!INCLUDE [header](./_includes/header.md)]
 
 These design patterns are useful for building reliable, scalable, secure applications in the cloud.
 

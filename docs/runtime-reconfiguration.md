@@ -16,7 +16,7 @@ ms.date: 12/14/2016
 
 # Runtime Reconfiguration
 
-[!INCLUDE [pnp-branding](../includes/header.md)]
+[!INCLUDE [header](./_includes/header.md)]
 
 Design an application so that it can be reconfigured without requiring redeployment or restarting the application. This helps to maintain availability and minimize downtime.
 

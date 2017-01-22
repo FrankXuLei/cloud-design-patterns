@@ -16,6 +16,8 @@ ms.date: 12/14/2016
 
 # Circuit Breaker
 
+[!INCLUDE [header](./_includes/header.md)]
+
 Handle faults that might take a variable amount of time to recover from, when connecting to a remote service or resource. This can improve the stability and resiliency of an application.
 
 ## Context and problem
