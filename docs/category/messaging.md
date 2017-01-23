@@ -14,8 +14,6 @@ pnp.series.title: Cloud Design Patterns
 
 The distributed nature of cloud applications requires a messaging infrastructure that connects the components and services, ideally in a loosely coupled manner in order to maximize scalability. Asynchronous messaging is widely used, and provides many benefits, but also brings challenges such as the ordering of messages, poison message management, idempotency, and more.
 
-The following patterns and guidance topics are related to maximizing availability in cloud-hosted applications.
-
 | Pattern | Summary |
 | ------- | ------- |
 | [Competing Consumers](../competing-consumers.md) | Enable multiple concurrent consumers to process messages received on the same messaging channel. |

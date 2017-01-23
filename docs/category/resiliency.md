@@ -14,8 +14,6 @@ pnp.series.title: Cloud Design Patterns
 
 Resiliency is the ability of a system to gracefully handle and recover from failures. The nature of cloud hosting, where applications are often multi-tenant, use shared platform services, compete for resources and bandwidth, communicate over the Internet, and run on commodity hardware means there is an increased likelihood that both transient and more permanent faults will arise. Detecting failures, and recovering quickly and efficiently, is necessary to maintain resiliency.
 
-The following patterns and guidance topics are related to maximizing availability in cloud-hosted applications.
-
 | Pattern | Summary |
 | ------- | ------- |
 | [Circuit Breaker](../circuit-breaker.md) | Handle faults that might take a variable amount of time to fix when connecting to a remote service or resource. |

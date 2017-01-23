@@ -14,8 +14,6 @@ pnp.series.title: Cloud Design Patterns
 
 Data management is the key element of cloud applications, and influences most of the quality attributes. Data is typically hosted in different locations and across multiple servers for reasons such as performance, scalability or availability, and this can present a range of challenges. For example, data consistency must be maintained, and data will typically need to be synchronized across different locations.
 
-The following patterns and guidance topics are related to maximizing availability in cloud-hosted applications.
-
 | Pattern | Summary |
 | ------- | ------- |
 | [Cache-Aside](../cache-aside.md) | Load data on demand into a cache from a data store |
