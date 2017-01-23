@@ -1,5 +1,5 @@
 ---
-title: Scheduler Agent Supervisor Pattern
+title: Scheduler Agent Supervisor
 description: Coordinate a set of actions across a distributed set of services and other remote resources.
 keywords: design pattern
 author: dragon119

@@ -1,5 +1,5 @@
 ---
-title: Leader Election Pattern
+title: Leader Election
 description: Coordinate the actions performed by a collection of collaborating task instances in a distributed application by electing one instance as the leader that assumes responsibility for managing the other instances.
 keywords: design pattern
 author: dragon119

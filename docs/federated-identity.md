@@ -1,5 +1,5 @@
 ---
-title: Federated Identity Pattern
+title: Federated Identity
 description: Delegate authentication to an external identity provider.
 keywords: design pattern
 author: dragon119

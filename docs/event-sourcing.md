@@ -1,5 +1,5 @@
 ---
-title: Event Sourcing Pattern
+title: Event Sourcing
 description: Use an append-only store to record the full series of events that describe actions taken on data in a domain.
 keywords: design pattern
 author: dragon119

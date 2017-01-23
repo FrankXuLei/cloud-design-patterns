@@ -1,5 +1,5 @@
 ---
-title: Sharding Pattern
+title: Sharding
 description: Divide a data store into a set of horizontal partitions or shards.
 keywords: design pattern
 author: dragon119

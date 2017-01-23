@@ -1,5 +1,5 @@
 ---
-title: Competing Consumers Pattern
+title: Competing Consumers
 description: Enable multiple concurrent consumers to process messages received on the same messaging channel.
 keywords: design pattern
 author: dragon119

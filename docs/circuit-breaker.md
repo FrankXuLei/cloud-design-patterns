@@ -1,5 +1,5 @@
 ---
-title: Circuit Breaker Pattern
+title: Circuit Breaker
 description: Handle faults that might take a variable amount of time to fix when connecting to a remote service or resource.
 keywords: design pattern
 author: dragon119

@@ -1,5 +1,5 @@
 ---
-title: Throttling Pattern
+title: Throttling
 description: Control the consumption of resources used by an instance of an application, an individual tenant, or an entire service.
 keywords: design pattern
 author: dragon119

@@ -1,5 +1,5 @@
 ---
-title: Retry Pattern
+title: Retry
 description: Enable an application to handle anticipated, temporary failures when it tries to connect to a service or network resource by transparently retrying an operation that's previously failed.
 keywords: design pattern
 author: dragon119

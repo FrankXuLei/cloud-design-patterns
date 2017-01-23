@@ -1,5 +1,5 @@
 ---
-title: Static Content Hosting Pattern
+title: Static Content Hosting
 description: Deploy static content to a cloud-based storage service that can deliver them directly to the client.
 keywords: design pattern
 author: dragon119

@@ -1,5 +1,5 @@
 ---
-title: Cache-Aside Pattern
+title: Cache-Aside
 description: Load data on demand into a cache from a data store
 keywords: design pattern
 author: dragon119

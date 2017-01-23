@@ -1,5 +1,5 @@
 ---
-title: CQRS Pattern
+title: CQRS
 description: Segregate operations that read data from operations that update data by using separate interfaces.
 keywords: design pattern
 services: ''

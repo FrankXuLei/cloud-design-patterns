@@ -1,5 +1,5 @@
 ---
-title: Health Endpoint Monitoring Pattern
+title: Health Endpoint Monitoring
 description: Implement functional checks in an application that external tools can access through exposed endpoints at regular intervals.
 keywords: design pattern
 author: dragon119

@@ -1,5 +1,5 @@
 ---
-title: Valet Key Pattern
+title: Valet Key
 description: Use a token or key that provides clients with restricted direct access to a specific resource or service.
 keywords: design pattern
 author: dragon119

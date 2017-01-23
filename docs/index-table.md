@@ -1,5 +1,5 @@
 ---
-title: Index Table Pattern
+title: Index Table
 description: Create indexes over the fields in data stores that are frequently referenced by queries.
 keywords: design pattern
 author: dragon119

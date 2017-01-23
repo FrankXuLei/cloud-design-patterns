@@ -1,5 +1,5 @@
 ---
-title: Materialized View Pattern
+title: Materialized View
 description: Generate prepopulated views over the data in one or more data stores when the data isn't ideally formatted for required query operations.
 keywords: design pattern
 author: dragon119
