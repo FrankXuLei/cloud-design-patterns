@@ -48,16 +48,17 @@ nav.series .prev {
     list-style-type: none;
 }
 #categories>li {
-    flex: 0 1 33%;
+    flex: 0 1 100%;
 }
-#categories>li img {
-    max-width: 260px;
-    /* This is a hack I added because I couldn't get the <li/> to shrink down to 33% in Edge */
+#categories>li a{
+    display: flex;
+    flex-wrap: nowrap;
 }
-@media all and (max-width: 800px) {
-    #categories>li {
-        flex: 0 1 100%;
-    }
+#categories>li a img {
+    flex-basis: 25%;
+}
+#categories>li a .cardText {
+    flex-basis: 75%;
 }
 .panel {
     margin-bottom: 0;
