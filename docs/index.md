@@ -7,6 +7,7 @@ manager: marksou
 ms.date: 12/14/2016
 ms.topic: article
 ---
+<div class="pnp">
 
 # Cloud Design Patterns
 
@@ -142,3 +143,5 @@ Each pattern describes the problem that the pattern addresses, considerations fo
 | [Static Content Hosting](./static-content-hosting.md) | Deploy static content to a cloud-based storage service that can deliver them directly to the client. |
 | [Throttling](./throttling.md) | Control the consumption of resources used by an instance of an application, an individual tenant, or an entire service. |
 | [Valet Key](./valet-key.md) | Use a token or key that provides clients with restricted direct access to a specific resource or service. |
+
+</div>

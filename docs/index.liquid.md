@@ -7,6 +7,7 @@ manager: marksou
 ms.date: 12/14/2016
 ms.topic: article
 ---
+<div class="pnp">
 
 # Cloud Design Patterns
 
@@ -30,3 +31,5 @@ Each pattern describes the problem that the pattern addresses, considerations fo
 {%- for pattern in patterns %}
 | [{{ pattern.title }}](./{{ pattern.file }}) | {{ pattern.description }} |
 {%- endfor %}
+
+</div>
