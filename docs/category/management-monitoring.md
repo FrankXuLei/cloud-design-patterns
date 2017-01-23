@@ -17,6 +17,6 @@ Cloud applications run in in a remote datacenter where you do not have full cont
 The following patterns and guidance topics are related to maximizing availability in cloud-hosted applications.
 
 |---|---|
-| [External Configuration Store](./external-configuration-store.md) | Move configuration information out of the application deployment package to a centralized location. |
-| [Health Endpoint Monitoring](./health-endpoint-monitoring.md) | Implement functional checks in an application that external tools can access through exposed endpoints at regular intervals. |
-| [Runtime Reconfiguration](./runtime-reconfiguration.md) | Design an application so that it can be reconfigured without requiring redeployment or restarting the application. |
+| [External Configuration Store](../external-configuration-store.md) | Move configuration information out of the application deployment package to a centralized location. |
+| [Health Endpoint Monitoring](../health-endpoint-monitoring.md) | Implement functional checks in an application that external tools can access through exposed endpoints at regular intervals. |
+| [Runtime Reconfiguration](../runtime-reconfiguration.md) | Design an application so that it can be reconfigured without requiring redeployment or restarting the application. |

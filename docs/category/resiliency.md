@@ -17,10 +17,10 @@ Resiliency is the ability of a system to gracefully handle and recover from fail
 The following patterns and guidance topics are related to maximizing availability in cloud-hosted applications.
 
 |---|---|
-| [Circuit Breaker](./circuit-breaker.md) | Handle faults that might take a variable amount of time to fix when connecting to a remote service or resource. |
-| [Compensating Transaction](./compensating-transaction.md) | Undo the work performed by a series of steps, which together define an eventually consistent operation. |
-| [Health Endpoint Monitoring](./health-endpoint-monitoring.md) | Implement functional checks in an application that external tools can access through exposed endpoints at regular intervals. |
-| [Leader Election](./leader-election.md) | Coordinate the actions performed by a collection of collaborating task instances in a distributed application by electing one instance as the leader that assumes responsibility for managing the other instances. |
-| [Queue-Based Load Leveling](./queue-based-load-leveling.md) | Use a queue that acts as a buffer between a task and a service that it invokes in order to smooth intermittent heavy loads. |
-| [Retry](./retry.md) | Enable an application to handle anticipated, temporary failures when it tries to connect to a service or network resource by transparently retrying an operation that's previously failed. |
-| [Scheduler Agent Supervisor](./scheduler-agent-supervisor.md) | Coordinate a set of actions across a distributed set of services and other remote resources. |
+| [Circuit Breaker](../circuit-breaker.md) | Handle faults that might take a variable amount of time to fix when connecting to a remote service or resource. |
+| [Compensating Transaction](../compensating-transaction.md) | Undo the work performed by a series of steps, which together define an eventually consistent operation. |
+| [Health Endpoint Monitoring](../health-endpoint-monitoring.md) | Implement functional checks in an application that external tools can access through exposed endpoints at regular intervals. |
+| [Leader Election](../leader-election.md) | Coordinate the actions performed by a collection of collaborating task instances in a distributed application by electing one instance as the leader that assumes responsibility for managing the other instances. |
+| [Queue-Based Load Leveling](../queue-based-load-leveling.md) | Use a queue that acts as a buffer between a task and a service that it invokes in order to smooth intermittent heavy loads. |
+| [Retry](../retry.md) | Enable an application to handle anticipated, temporary failures when it tries to connect to a service or network resource by transparently retrying an operation that's previously failed. |
+| [Scheduler Agent Supervisor](../scheduler-agent-supervisor.md) | Coordinate a set of actions across a distributed set of services and other remote resources. |

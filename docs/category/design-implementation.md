@@ -17,10 +17,10 @@ Good design encompasses factors such as consistency and coherence in component d
 The following patterns and guidance topics are related to maximizing availability in cloud-hosted applications.
 
 |---|---|
-| [CQRS](./command-and-query-responsibility-segregation-cqrs.md) | Segregate operations that read data from operations that update data by using separate interfaces. |
-| [Compute Resource Consolidation](./compute-resource-consolidation.md) | Consolidate multiple tasks or operations into a single computational unit |
-| [External Configuration Store](./external-configuration-store.md) | Move configuration information out of the application deployment package to a centralized location. |
-| [Leader Election](./leader-election.md) | Coordinate the actions performed by a collection of collaborating task instances in a distributed application by electing one instance as the leader that assumes responsibility for managing the other instances. |
-| [Pipes and Filters](./pipes-and-filters.md) | Break down a task that performs complex processing into a series of separate elements that can be reused. |
-| [Runtime Reconfiguration](./runtime-reconfiguration.md) | Design an application so that it can be reconfigured without requiring redeployment or restarting the application. |
-| [Static Content Hosting](./static-content-hosting.md) | Deploy static content to a cloud-based storage service that can deliver them directly to the client. |
+| [CQRS](../command-and-query-responsibility-segregation-cqrs.md) | Segregate operations that read data from operations that update data by using separate interfaces. |
+| [Compute Resource Consolidation](../compute-resource-consolidation.md) | Consolidate multiple tasks or operations into a single computational unit |
+| [External Configuration Store](../external-configuration-store.md) | Move configuration information out of the application deployment package to a centralized location. |
+| [Leader Election](../leader-election.md) | Coordinate the actions performed by a collection of collaborating task instances in a distributed application by electing one instance as the leader that assumes responsibility for managing the other instances. |
+| [Pipes and Filters](../pipes-and-filters.md) | Break down a task that performs complex processing into a series of separate elements that can be reused. |
+| [Runtime Reconfiguration](../runtime-reconfiguration.md) | Design an application so that it can be reconfigured without requiring redeployment or restarting the application. |
+| [Static Content Hosting](../static-content-hosting.md) | Deploy static content to a cloud-based storage service that can deliver them directly to the client. |
