@@ -24,20 +24,17 @@ h1 > span.series {
 .content p:empty {
     display: none;
 }
-nav.series {
+nav.categories {
     display: flex;
     width: calc(100% - 12px);
     margin: 0 auto;
     margin-top: -12px;
 }
-nav.series a {
+nav.categories a {
     flex-basis: 100%;
 }
-nav.series .next {
-    text-align: right;
-}
-nav.series .prev {
-    text-align: left;
+nav.categories a img {
+    max-width: 24px;
 }
 
 .panel {
