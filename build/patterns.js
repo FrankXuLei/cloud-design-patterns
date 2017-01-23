@@ -18,7 +18,7 @@ module.exports = function () {
 
         model.push({
             title: yml['title'],
-            desription: yml['description'],
+            description: yml['description'],
             file: file,
             categories: yml['pnp.pattern.categories']
         });

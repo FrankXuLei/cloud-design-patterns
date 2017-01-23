@@ -18,6 +18,6 @@ Each pattern describes the problem that the pattern addresses, considerations fo
 
 | Pattern | Description |
 | ------- | ----------- |
-{%- for pattern in patterns -%}
+{%- for pattern in patterns %}
 | [{{ pattern.title }}]({{ pattern.file }}) | {{ pattern.description }} |
 {%- endfor -%}
