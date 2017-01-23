@@ -1,6 +1,6 @@
 ---
 title: Security patterns
-description: 
+description: Security is the capability of a system to prevent malicious or accidental actions outside of the designed usage, and to prevent disclosure or loss of information. Cloud applications are exposed on the Internet outside trusted on-premises boundaries, are often open to the public, and may serve untrusted users. Applications must be designed and deployed in a way that protects them from malicious attacks, restricts access to only approved users, and protects sensitive data.
 keywords: design pattern
 author: dragon119
 manager: bennage
@@ -8,10 +8,14 @@ manager: bennage
 pnp.series.title: Cloud Design Patterns
 ---
 
-# Security
+# Security patterns
 
 [!INCLUDE [header](../_includes/header.md)]
 
 Security is the capability of a system to prevent malicious or accidental actions outside of the designed usage, and to prevent disclosure or loss of information. Cloud applications are exposed on the Internet outside trusted on-premises boundaries, are often open to the public, and may serve untrusted users. Applications must be designed and deployed in a way that protects them from malicious attacks, restricts access to only approved users, and protects sensitive data.
 
-The following patterns are related to maximizing security in cloud-hosted applications.
+The following patterns and guidance topics are related to maximizing availability in cloud-hosted applications.
+
+| [Federated Identity](./federated-identity.md) | Delegate authentication to an external identity provider. |
+| [Gatekeeper](./gatekeeper.md) | Protect applications and services by using a dedicated host instance that acts as a broker between clients and the application or service, validates and sanitizes requests, and passes requests and data between them. |
+| [Valet Key](./valet-key.md) | Use a token or key that provides clients with restricted direct access to a specific resource or service. |
