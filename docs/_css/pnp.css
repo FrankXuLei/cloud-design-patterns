@@ -30,11 +30,8 @@ nav.categories {
     margin: 0 auto;
     margin-top: -12px;
 }
-nav.categories a {
-    flex-basis: 100%;
-}
 nav.categories a img {
-    max-width: 24px;
+    width: 48px;
 }
 
 .panel {
