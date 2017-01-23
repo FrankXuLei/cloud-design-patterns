@@ -26,9 +26,8 @@ h1 > span.series {
 }
 nav.categories {
     display: flex;
-    width: calc(100% - 12px);
     margin: 0 auto;
-    margin-top: -12px;
+    margin-bottom: -12px;
 }
 nav.categories a {
     margin-right: 8px;
