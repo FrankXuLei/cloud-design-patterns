@@ -55,10 +55,10 @@ nav.series .prev {
     flex-wrap: nowrap;
 }
 #categories>li a img {
-    flex-basis: 25%;
+    margin-right: 8px;
 }
-#categories>li a .cardText {
-    flex-basis: 75%;
+#categories>li a .cardText h3 {
+    color: rgb(34,34,34);
 }
 .panel {
     margin-bottom: 0;
