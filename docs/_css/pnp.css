@@ -45,6 +45,8 @@ nav.categories a img {
 }
 #categories>li {
     flex: 0 1 100%;
+    margin-left: 0 !important;
+    margin-bottom: 18px !important;
 }
 #categories>li a{
     display: flex;
@@ -53,7 +55,7 @@ nav.categories a img {
 }
 #categories>li a img {
     margin-right: 12px;
-    max-width: 128px;
+    max-width: 64px;
 }
 @media all and (max-width: 800px) {
     #categories>li a img {
