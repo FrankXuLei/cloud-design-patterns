@@ -19,7 +19,7 @@ Each pattern describes the problem that the pattern addresses, considerations fo
 ## Problem areas in the cloud
 
 <ul id="series" class="cardsFTitle panel">
-    <a href="availability">
+    <a href="./availability.md">
     <div class="cardSize">
         <div class="cardPadding">
             <div class="card">
@@ -36,7 +36,7 @@ Each pattern describes the problem that the pattern addresses, considerations fo
         </div>
     </div>
 </a>
-    <a href="data-management">
+    <a href="./data-management.md">
     <div class="cardSize">
         <div class="cardPadding">
             <div class="card">
@@ -53,7 +53,7 @@ Each pattern describes the problem that the pattern addresses, considerations fo
         </div>
     </div>
 </a>
-    <a href="design-implementation">
+    <a href="./design-implementation.md">
     <div class="cardSize">
         <div class="cardPadding">
             <div class="card">
@@ -70,7 +70,7 @@ Each pattern describes the problem that the pattern addresses, considerations fo
         </div>
     </div>
 </a>
-    <a href="messaging">
+    <a href="./messaging.md">
     <div class="cardSize">
         <div class="cardPadding">
             <div class="card">
@@ -87,7 +87,7 @@ Each pattern describes the problem that the pattern addresses, considerations fo
         </div>
     </div>
 </a>
-    <a href="management-monitoring">
+    <a href="./management-monitoring.md">
     <div class="cardSize">
         <div class="cardPadding">
             <div class="card">
@@ -104,7 +104,7 @@ Each pattern describes the problem that the pattern addresses, considerations fo
         </div>
     </div>
 </a>
-    <a href="performance-scalability">
+    <a href="./performance-scalability.md">
     <div class="cardSize">
         <div class="cardPadding">
             <div class="card">
@@ -121,7 +121,7 @@ Each pattern describes the problem that the pattern addresses, considerations fo
         </div>
     </div>
 </a>
-    <a href="resiliency">
+    <a href="./resiliency.md">
     <div class="cardSize">
         <div class="cardPadding">
             <div class="card">
@@ -138,7 +138,7 @@ Each pattern describes the problem that the pattern addresses, considerations fo
         </div>
     </div>
 </a>
-    <a href="security">
+    <a href="./security.md">
     <div class="cardSize">
         <div class="cardPadding">
             <div class="card">
