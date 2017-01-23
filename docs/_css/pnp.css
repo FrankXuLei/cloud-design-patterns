@@ -40,29 +40,25 @@ nav.series .prev {
     text-align: left;
 }
 
-.pnp p {
-    display: inline-block !important;
-}
-.pnp .panel {
+.panel {
     display: flex;
     flex-wrap: wrap;
 }
-.pnp .panel li {
+.panel li {
     list-style-type: none;
 }
-.pnp #categories>li {
+#categories>li {
     flex: 0 1 33%;
 }
-.pnp #categories>li img {
+#categories>li img {
     max-width: 260px;
     /* This is a hack I added because I couldn't get the <li/> to shrink down to 33% in Edge */
 }
 @media all and (max-width: 800px) {
-    .pnp #categories>li {
+    #categories>li {
         flex: 0 1 100%;
     }
 }
-
-.pnp .panel {
+.panel {
     margin-bottom: 0;
 }
