@@ -19,7 +19,7 @@ Each pattern describes the problem that the pattern addresses, considerations fo
 | Category | Description |
 | -------- | ----------- |
 {%- for category in categories %}
-| [{{ category.title }}](./category/{{ category.url }}/index.md) ![{{ category.title }}](./_images/category/{{ category.url }}.svg) | {{ category.description }} |
+| [{{ category.title }}](./category/{{ category.url }}.md) ![{{ category.title }}](./_images/category/{{ category.url }}.svg) | {{ category.description }} |
 {%- endfor %}
 
 | Pattern | Description |
