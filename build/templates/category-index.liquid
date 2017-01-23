@@ -1,0 +1,21 @@
+---
+title: {{ title }} patterns
+description: {{ description }}
+keywords: design pattern
+author: dragon119
+manager: bennage
+
+pnp.series.title: Cloud Design Patterns
+---
+
+# {{ title }} patterns
+
+[!INCLUDE [header](../_includes/header.md)]
+
+{{ description }}
+
+The following patterns and guidance topics are related to maximizing availability in cloud-hosted applications.
+
+{%- for pattern in patterns %}
+| [{{ pattern.title }}](./{{ pattern.file }}) | {{ pattern.description }} |
+{%- endfor %}
