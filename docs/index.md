@@ -30,8 +30,6 @@ Each pattern describes the problem that the pattern addresses, considerations fo
 | [Gatekeeper](gatekeeper.md) | Protect applications and services by using a dedicated host instance that acts as a broker between clients and the application or service, validates and sanitizes requests, and passes requests and data between them. |
 | [Health Endpoint Monitoring](health-endpoint-monitoring.md) | Implement functional checks in an application that external tools can access through exposed endpoints at regular intervals. |
 | [Index Table](index-table.md) | Create indexes over the fields in data stores that are frequently referenced by queries. |
-| [Cloud Design Patterns](index.liquid.md) | Cloud Design Patterns for Microsoft Azure |
-| [Cloud Design Patterns](index.md) | Cloud Design Patterns for Microsoft Azure |
 | [Leader Election](leader-election.md) | Coordinate the actions performed by a collection of collaborating task instances in a distributed application by electing one instance as the leader that assumes responsibility for managing the other instances. |
 | [Materialized View](materialized-view.md) | Generate prepopulated views over the data in one or more data stores when the data isn't ideally formatted for required query operations. |
 | [Pipes and Filters](pipes-and-filters.md) | Break down a task that performs complex processing into a series of separate elements that can be reused. |
