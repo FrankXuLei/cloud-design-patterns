@@ -57,6 +57,12 @@ nav.series .prev {
 }
 #categories>li a img {
     margin-right: 12px;
+    max-width: 128px;
+}
+@media all and (max-width: 800px) {
+    #categories>li a img {
+        max-width: 32px;
+    }
 }
 #categories>li a .cardText h3 {
     color: rgb(34,34,34);
