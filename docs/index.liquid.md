@@ -2,10 +2,6 @@
 title: Cloud Design Patterns
 description: Cloud Design Patterns for Microsoft Azure
 keywords: Azure
-author: bennage
-manager: marksou
-ms.date: 12/14/2016
-ms.topic: article
 ---
 # Cloud Design Patterns
 
