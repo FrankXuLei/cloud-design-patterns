@@ -19,11 +19,11 @@ Each pattern describes the problem that the pattern addresses, considerations fo
 | Category | Description |
 | -------- | ----------- |
 {%- for category in categories %}
-| [{{ category.title }}](./{{ category.url }}/index.md) | {{ category.description }} |
-{%- endfor -%}
+| [{{ category.title }}](./category/{{ category.url }}/index.md) | {{ category.description }} |
+{%- endfor %}
 
 | Pattern | Description |
 | ------- | ----------- |
 {%- for pattern in patterns %}
 | [{{ pattern.title }}](./{{ pattern.file }}) | {{ pattern.description }} |
-{%- endfor -%}
+{%- endfor %}
