@@ -1,19 +1,20 @@
-var path = require('path');
-var fs = require('fs');
+const path = require('path');
+const fs = require('fs');
 
-var yamlFront = require('yaml-front-matter');
-var Liquid = require('shopify-liquid');
+const yamlFront = require('yaml-front-matter');
+const Liquid = require('shopify-liquid');
 
-var patterns = require('./patterns')();
+const patterns = require('./patterns');
 
-var engine = Liquid({
+const engine = Liquid({
     root: path.resolve(__dirname, 'templates'),
     extname: '.liquid'
 });
 
-// var dataPath = path.resolve(__dirname, '../docs/index.yml');
-// var content = fs.readFileSync(dataPath, 'utf8');
-// var yml = yamlFront.loadFront(content);
+var dataPath = path.resolve(__dirname, '../docs/index.yml');
+var content = fs.readFileSync(dataPath, 'utf8');
+var yml = yamlFront.loadFront(content);
+yml.patterns = patterns();
 
 ['index'].forEach(x => {
     console.log(`templated page: ${x}`);
@@ -21,8 +22,8 @@ var engine = Liquid({
     var outputhPath = path.resolve(__dirname, `../docs/${x}.md`);
     var template = engine.parse(fs.readFileSync(templatePath, 'utf8'));
 
-    return engine.render(template, { patterns: patterns })
-        .then(function (markdown) {
+    return engine.render(template, yml)
+        .then(markdown => {
             fs.writeFile(outputhPath, markdown);
         });
 });
