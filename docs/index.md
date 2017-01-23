@@ -18,8 +18,8 @@ Each pattern describes the problem that the pattern addresses, considerations fo
 
 ## Problem areas in the cloud
 
-<ul id="series" class="cardsFTitle panel">
-    <a href="./availability.md">
+<ul id="categories" class="cardsFTitle panel">
+    <a href="./category/availability.md">
     <div class="cardSize">
         <div class="cardPadding">
             <div class="card">
@@ -36,7 +36,7 @@ Each pattern describes the problem that the pattern addresses, considerations fo
         </div>
     </div>
 </a>
-    <a href="./data-management.md">
+    <a href="./category/data-management.md">
     <div class="cardSize">
         <div class="cardPadding">
             <div class="card">
@@ -53,7 +53,7 @@ Each pattern describes the problem that the pattern addresses, considerations fo
         </div>
     </div>
 </a>
-    <a href="./design-implementation.md">
+    <a href="./category/design-implementation.md">
     <div class="cardSize">
         <div class="cardPadding">
             <div class="card">
@@ -70,7 +70,7 @@ Each pattern describes the problem that the pattern addresses, considerations fo
         </div>
     </div>
 </a>
-    <a href="./messaging.md">
+    <a href="./category/messaging.md">
     <div class="cardSize">
         <div class="cardPadding">
             <div class="card">
@@ -87,7 +87,7 @@ Each pattern describes the problem that the pattern addresses, considerations fo
         </div>
     </div>
 </a>
-    <a href="./management-monitoring.md">
+    <a href="./category/management-monitoring.md">
     <div class="cardSize">
         <div class="cardPadding">
             <div class="card">
@@ -104,7 +104,7 @@ Each pattern describes the problem that the pattern addresses, considerations fo
         </div>
     </div>
 </a>
-    <a href="./performance-scalability.md">
+    <a href="./category/performance-scalability.md">
     <div class="cardSize">
         <div class="cardPadding">
             <div class="card">
@@ -121,7 +121,7 @@ Each pattern describes the problem that the pattern addresses, considerations fo
         </div>
     </div>
 </a>
-    <a href="./resiliency.md">
+    <a href="./category/resiliency.md">
     <div class="cardSize">
         <div class="cardPadding">
             <div class="card">
@@ -138,7 +138,7 @@ Each pattern describes the problem that the pattern addresses, considerations fo
         </div>
     </div>
 </a>
-    <a href="./security.md">
+    <a href="./category/security.md">
     <div class="cardSize">
         <div class="cardPadding">
             <div class="card">

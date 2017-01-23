@@ -18,7 +18,7 @@ Each pattern describes the problem that the pattern addresses, considerations fo
 
 ## Problem areas in the cloud
 
-<ul id="series" class="cardsFTitle panel">
+<ul id="categories" class="cardsFTitle panel">
 {%- for category in categories %}
     {% include 'category-card' %}
 {%- endfor %}
