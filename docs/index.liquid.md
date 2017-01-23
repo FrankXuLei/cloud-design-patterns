@@ -16,14 +16,15 @@ These design patterns are useful for building reliable, scalable, secure applica
 
 Each pattern describes the problem that the pattern addresses, considerations for applying the pattern, and an example based on Microsoft Azure. Most of the patterns include code samples or snippets that show how to implement the pattern on Azure. However, most of the patterns are relevant to any distributed system, whether hosted on Azure or on other cloud platforms.
 
-| Category | Description |
-| -------- | ----------- |
-{%- for category in categories %}
-| [{{ category.title }}](./category/{{ category.url }}.md) ![{{ category.title }}](./_images/category/{{ category.url }}.svg) | {{ category.description }} |
-{%- endfor %}
+## Problem areas in the cloud
 
-| Pattern | Description |
-| ------- | ----------- |
+<ul id="series" class="cardsFTitle panel">
+{%- for category in categories %}
+    {% include 'category-card' %}
+{%- endfor %}
+</ul>
+
+## Pattern descriptions
 {%- for pattern in patterns %}
 | [{{ pattern.title }}](./{{ pattern.file }}) | {{ pattern.description }} |
 {%- endfor %}

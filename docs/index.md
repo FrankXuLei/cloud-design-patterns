@@ -16,19 +16,148 @@ These design patterns are useful for building reliable, scalable, secure applica
 
 Each pattern describes the problem that the pattern addresses, considerations for applying the pattern, and an example based on Microsoft Azure. Most of the patterns include code samples or snippets that show how to implement the pattern on Azure. However, most of the patterns are relevant to any distributed system, whether hosted on Azure or on other cloud platforms.
 
-| Category | Description |
-| -------- | ----------- |
-| [Availability](./category/availability.md) ![Availability](./_images/category/availability.svg) | Availability defines the proportion of time that the system is functional and working. It will be affected by system errors, infrastructure problems, malicious attacks, and system load. It is usually measured as a percentage of uptime. Cloud applications typically provide users with a service level agreement (SLA), which means that applications must be designed and implemented in a way that maximizes availability. |
-| [Data Management](./category/data-management.md) ![Data Management](./_images/category/data-management.svg) | Data management is the key element of cloud applications, and influences most of the quality attributes. Data is typically hosted in different locations and across multiple servers for reasons such as performance, scalability or availability, and this can present a range of challenges. For example, data consistency must be maintained, and data will typically need to be synchronized across different locations. |
-| [Design and Implementation](./category/design-implementation.md) ![Design and Implementation](./_images/category/design-implementation.svg) | Good design encompasses factors such as consistency and coherence in component design and deployment, maintainability to simplify administration and development, and reusability to allow components and subsystems to be used in other applications and in other scenarios. Decisions made during the design and implementation phase have a huge impact on the quality and the total cost of ownership of cloud hosted applications and services. |
-| [Messaging](./category/messaging.md) ![Messaging](./_images/category/messaging.svg) | The distributed nature of cloud applications requires a messaging infrastructure that connects the components and services, ideally in a loosely coupled manner in order to maximize scalability. Asynchronous messaging is widely used, and provides many benefits, but also brings challenges such as the ordering of messages, poison message management, idempotency, and more. |
-| [Management and Monitoring](./category/management-monitoring.md) ![Management and Monitoring](./_images/category/management-monitoring.svg) | Cloud applications run in in a remote datacenter where you do not have full control of the infrastructure or, in some cases, the operating system. This can make management and monitoring more difficult than an on-premises deployment. Applications must expose runtime information that administrators and operators can use to manage and monitor the system, as well as supporting changing business requirements and customization without requiring the application to be stopped or redeployed. |
-| [Performance and Scalability](./category/performance-scalability.md) ![Performance and Scalability](./_images/category/performance-scalability.svg) | Performance is an indication of the responsiveness of a system to execute any action within a given time interval, while scalability is ability of a system either to handle increases in load without impact on performance or for the available resources to be readily increased. Cloud applications typically encounter variable workloads and peaks in activity. Predicting these, especially in a multi-tenant scenario, is almost impossible. Instead, applications should be able to scale out within limits to meet peaks in demand, and scale in when demand decreases. Scalability concerns not just compute instances, but other elements such as data storage, messaging infrastructure, and more. |
-| [Resiliency](./category/resiliency.md) ![Resiliency](./_images/category/resiliency.svg) | Resiliency is the ability of a system to gracefully handle and recover from failures. The nature of cloud hosting, where applications are often multi-tenant, use shared platform services, compete for resources and bandwidth, communicate over the Internet, and run on commodity hardware means there is an increased likelihood that both transient and more permanent faults will arise. Detecting failures, and recovering quickly and efficiently, is necessary to maintain resiliency. |
-| [Security](./category/security.md) ![Security](./_images/category/security.svg) | Security is the capability of a system to prevent malicious or accidental actions outside of the designed usage, and to prevent disclosure or loss of information. Cloud applications are exposed on the Internet outside trusted on-premises boundaries, are often open to the public, and may serve untrusted users. Applications must be designed and deployed in a way that protects them from malicious attacks, restricts access to only approved users, and protects sensitive data. |
+## Problem areas in the cloud
 
-| Pattern | Description |
-| ------- | ----------- |
+<ul id="series" class="cardsFTitle panel">
+    <a href="availability">
+    <div class="cardSize">
+        <div class="cardPadding">
+            <div class="card">
+                <div class="cardImageOuter">
+                    <div class="cardImage">
+                        <img src="_images/category/availability.svg" alt="Availability" />
+                    </div>
+                </div>
+                <div class="cardText">
+                    <h3>Availability</h3>
+                    <p>Availability defines the proportion of time that the system is functional and working. It will be affected by system errors, infrastructure problems, malicious attacks, and system load. It is usually measured as a percentage of uptime. Cloud applications typically provide users with a service level agreement (SLA), which means that applications must be designed and implemented in a way that maximizes availability.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
+    <a href="data-management">
+    <div class="cardSize">
+        <div class="cardPadding">
+            <div class="card">
+                <div class="cardImageOuter">
+                    <div class="cardImage">
+                        <img src="_images/category/data-management.svg" alt="Data Management" />
+                    </div>
+                </div>
+                <div class="cardText">
+                    <h3>Data Management</h3>
+                    <p>Data management is the key element of cloud applications, and influences most of the quality attributes. Data is typically hosted in different locations and across multiple servers for reasons such as performance, scalability or availability, and this can present a range of challenges. For example, data consistency must be maintained, and data will typically need to be synchronized across different locations.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
+    <a href="design-implementation">
+    <div class="cardSize">
+        <div class="cardPadding">
+            <div class="card">
+                <div class="cardImageOuter">
+                    <div class="cardImage">
+                        <img src="_images/category/design-implementation.svg" alt="Design and Implementation" />
+                    </div>
+                </div>
+                <div class="cardText">
+                    <h3>Design and Implementation</h3>
+                    <p>Good design encompasses factors such as consistency and coherence in component design and deployment, maintainability to simplify administration and development, and reusability to allow components and subsystems to be used in other applications and in other scenarios. Decisions made during the design and implementation phase have a huge impact on the quality and the total cost of ownership of cloud hosted applications and services.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
+    <a href="messaging">
+    <div class="cardSize">
+        <div class="cardPadding">
+            <div class="card">
+                <div class="cardImageOuter">
+                    <div class="cardImage">
+                        <img src="_images/category/messaging.svg" alt="Messaging" />
+                    </div>
+                </div>
+                <div class="cardText">
+                    <h3>Messaging</h3>
+                    <p>The distributed nature of cloud applications requires a messaging infrastructure that connects the components and services, ideally in a loosely coupled manner in order to maximize scalability. Asynchronous messaging is widely used, and provides many benefits, but also brings challenges such as the ordering of messages, poison message management, idempotency, and more.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
+    <a href="management-monitoring">
+    <div class="cardSize">
+        <div class="cardPadding">
+            <div class="card">
+                <div class="cardImageOuter">
+                    <div class="cardImage">
+                        <img src="_images/category/management-monitoring.svg" alt="Management and Monitoring" />
+                    </div>
+                </div>
+                <div class="cardText">
+                    <h3>Management and Monitoring</h3>
+                    <p>Cloud applications run in in a remote datacenter where you do not have full control of the infrastructure or, in some cases, the operating system. This can make management and monitoring more difficult than an on-premises deployment. Applications must expose runtime information that administrators and operators can use to manage and monitor the system, as well as supporting changing business requirements and customization without requiring the application to be stopped or redeployed.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
+    <a href="performance-scalability">
+    <div class="cardSize">
+        <div class="cardPadding">
+            <div class="card">
+                <div class="cardImageOuter">
+                    <div class="cardImage">
+                        <img src="_images/category/performance-scalability.svg" alt="Performance and Scalability" />
+                    </div>
+                </div>
+                <div class="cardText">
+                    <h3>Performance and Scalability</h3>
+                    <p>Performance is an indication of the responsiveness of a system to execute any action within a given time interval, while scalability is ability of a system either to handle increases in load without impact on performance or for the available resources to be readily increased. Cloud applications typically encounter variable workloads and peaks in activity. Predicting these, especially in a multi-tenant scenario, is almost impossible. Instead, applications should be able to scale out within limits to meet peaks in demand, and scale in when demand decreases. Scalability concerns not just compute instances, but other elements such as data storage, messaging infrastructure, and more.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
+    <a href="resiliency">
+    <div class="cardSize">
+        <div class="cardPadding">
+            <div class="card">
+                <div class="cardImageOuter">
+                    <div class="cardImage">
+                        <img src="_images/category/resiliency.svg" alt="Resiliency" />
+                    </div>
+                </div>
+                <div class="cardText">
+                    <h3>Resiliency</h3>
+                    <p>Resiliency is the ability of a system to gracefully handle and recover from failures. The nature of cloud hosting, where applications are often multi-tenant, use shared platform services, compete for resources and bandwidth, communicate over the Internet, and run on commodity hardware means there is an increased likelihood that both transient and more permanent faults will arise. Detecting failures, and recovering quickly and efficiently, is necessary to maintain resiliency.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
+    <a href="security">
+    <div class="cardSize">
+        <div class="cardPadding">
+            <div class="card">
+                <div class="cardImageOuter">
+                    <div class="cardImage">
+                        <img src="_images/category/security.svg" alt="Security" />
+                    </div>
+                </div>
+                <div class="cardText">
+                    <h3>Security</h3>
+                    <p>Security is the capability of a system to prevent malicious or accidental actions outside of the designed usage, and to prevent disclosure or loss of information. Cloud applications are exposed on the Internet outside trusted on-premises boundaries, are often open to the public, and may serve untrusted users. Applications must be designed and deployed in a way that protects them from malicious attacks, restricts access to only approved users, and protects sensitive data.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
+</ul>
+
+## Pattern descriptions
 | [Cache-Aside](./cache-aside.md) | Load data on demand into a cache from a data store |
 | [Circuit Breaker](./circuit-breaker.md) | Handle faults that might take a variable amount of time to fix when connecting to a remote service or resource. |
 | [CQRS](./command-and-query-responsibility-segregation-cqrs.md) | Segregate operations that read data from operations that update data by using separate interfaces. |
