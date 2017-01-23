@@ -16,6 +16,7 @@ Resiliency is the ability of a system to gracefully handle and recover from fail
 
 The following patterns and guidance topics are related to maximizing availability in cloud-hosted applications.
 
+|---|---|
 | [Circuit Breaker](./circuit-breaker.md) | Handle faults that might take a variable amount of time to fix when connecting to a remote service or resource. |
 | [Compensating Transaction](./compensating-transaction.md) | Undo the work performed by a series of steps, which together define an eventually consistent operation. |
 | [Health Endpoint Monitoring](./health-endpoint-monitoring.md) | Implement functional checks in an application that external tools can access through exposed endpoints at regular intervals. |

@@ -16,6 +16,7 @@ Security is the capability of a system to prevent malicious or accidental action
 
 The following patterns and guidance topics are related to maximizing availability in cloud-hosted applications.
 
+|---|---|
 | [Federated Identity](./federated-identity.md) | Delegate authentication to an external identity provider. |
 | [Gatekeeper](./gatekeeper.md) | Protect applications and services by using a dedicated host instance that acts as a broker between clients and the application or service, validates and sanitizes requests, and passes requests and data between them. |
 | [Valet Key](./valet-key.md) | Use a token or key that provides clients with restricted direct access to a specific resource or service. |

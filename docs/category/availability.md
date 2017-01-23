@@ -16,6 +16,7 @@ Availability defines the proportion of time that the system is functional and wo
 
 The following patterns and guidance topics are related to maximizing availability in cloud-hosted applications.
 
+|---|---|
 | [Health Endpoint Monitoring](./health-endpoint-monitoring.md) | Implement functional checks in an application that external tools can access through exposed endpoints at regular intervals. |
 | [Queue-Based Load Leveling](./queue-based-load-leveling.md) | Use a queue that acts as a buffer between a task and a service that it invokes in order to smooth intermittent heavy loads. |
 | [Throttling](./throttling.md) | Control the consumption of resources used by an instance of an application, an individual tenant, or an entire service. |

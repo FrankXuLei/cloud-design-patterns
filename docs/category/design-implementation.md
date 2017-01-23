@@ -16,6 +16,7 @@ Good design encompasses factors such as consistency and coherence in component d
 
 The following patterns and guidance topics are related to maximizing availability in cloud-hosted applications.
 
+|---|---|
 | [CQRS](./command-and-query-responsibility-segregation-cqrs.md) | Segregate operations that read data from operations that update data by using separate interfaces. |
 | [Compute Resource Consolidation](./compute-resource-consolidation.md) | Consolidate multiple tasks or operations into a single computational unit |
 | [External Configuration Store](./external-configuration-store.md) | Move configuration information out of the application deployment package to a centralized location. |
