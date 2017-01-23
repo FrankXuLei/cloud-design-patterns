@@ -16,7 +16,8 @@ Performance is an indication of the responsiveness of a system to execute any ac
 
 The following patterns and guidance topics are related to maximizing availability in cloud-hosted applications.
 
-|---|---|
+| Pattern | Summary |
+| ------- | ------- |
 | [Cache-Aside](../cache-aside.md) | Load data on demand into a cache from a data store |
 | [CQRS](../command-and-query-responsibility-segregation-cqrs.md) | Segregate operations that read data from operations that update data by using separate interfaces. |
 | [Event Sourcing](../event-sourcing.md) | Use an append-only store to record the full series of events that describe actions taken on data in a domain. |
