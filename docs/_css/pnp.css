@@ -64,6 +64,20 @@ nav.categories a img {
     color: rgb(34,34,34);
     margin-top: 0;
 }
+#categories>li a .cardText p {
+    font-size: 1rem;
+    margin: 10px 0 0;
+    font-size: .9375rem;
+    line-height: 1.33;
+    color: #6e6e6e;
+    padding: 0;
+}
+#categories>li a .cardText h3 {
+    font-size: 1.188rem;
+    margin: 0;
+    line-height: 1.125;
+    color: #222;
+}
 .panel {
     margin-bottom: 0;
 }
