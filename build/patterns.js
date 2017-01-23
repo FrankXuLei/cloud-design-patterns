@@ -16,7 +16,7 @@ module.exports = function () {
         var content = fs.readFileSync(filePath, 'utf8');
         var yml = yamlFront.loadFront(content);
 
-        mode.push({
+        model.push({
             title: yml['title'],
             desription: yml['description'],
             file: file,
