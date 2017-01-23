@@ -30,6 +30,9 @@ nav.categories {
     margin: 0 auto;
     margin-top: -12px;
 }
+nav.categories a {
+    margin-right: 8px;
+}
 nav.categories a img {
     width: 48px;
 }
