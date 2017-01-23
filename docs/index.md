@@ -116,7 +116,7 @@ Each pattern describes the problem that the pattern addresses, considerations fo
     </li>
 </ul>
 
-## Pattern descriptions
+## Catalog of patterns
 | [Cache-Aside](./cache-aside.md) | Load data on demand into a cache from a data store |
 | [Circuit Breaker](./circuit-breaker.md) | Handle faults that might take a variable amount of time to fix when connecting to a remote service or resource. |
 | [CQRS](./command-and-query-responsibility-segregation-cqrs.md) | Segregate operations that read data from operations that update data by using separate interfaces. |
