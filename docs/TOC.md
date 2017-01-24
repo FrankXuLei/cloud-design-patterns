@@ -1,8 +1,6 @@
 # Cloud Design Patterns
 
-## [Get started](./index.md)
-
-## By problem area
+## Problem areas
 ### [Availability](./category/availability.md)
 ### [Data management](./category/data-management.md)
 ### [Design and implementation](./category/design-implementation.md)
@@ -12,7 +10,7 @@
 ### [Resiliency](./category/resiliency.md)
 ### [Security](./category/security.md)
 
-## By name
+## Catalog
 ### [Cache-Aside](./cache-aside.md)
 ### [Circuit Breaker](./circuit-breaker.md)
 ### [Command and Query Responsibility Segregation (CQRS)](./command-and-query-responsibility-segregation-cqrs.md)

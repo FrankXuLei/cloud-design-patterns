@@ -3,5 +3,9 @@
   topicHref: /azure
   items:
   - name: Guidance
-    tocHref: /azure/design-patterns/
+    tocHref: /azure/guidance/
     topicHref: /azure/guidance
+    items:
+    - name: Cloud Design Patterns
+      tocHref: /azure/design-patterns
+      topicHref: /azure/design-patterns
