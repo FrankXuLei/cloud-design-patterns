@@ -3,5 +3,5 @@
   topicHref: /azure
   items:
   - name: Guidance
-    tocHref: /azure/guidance/
+    tocHref: /azure/design-patterns/
     topicHref: /azure/guidance
