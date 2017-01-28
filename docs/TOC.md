@@ -1,6 +1,6 @@
 # Cloud Design Patterns
 
-# Problem area
+# Category
 ## [Availability](./category/availability.md)
 ## [Data management](./category/data-management.md)
 ## [Design and implementation](./category/design-implementation.md)
